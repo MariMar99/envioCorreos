@@ -11,7 +11,8 @@ package co.expochick.business.email;
  */
 public class TestEmail {
     public static void main(String[] args){
-        Email e = new Email ("Prueba Envio", "Brayan no pudo hacer lo que yo hice...EN TU CARA BABY", "ma412@misena.edu.co");
+        Email e = new Email ("Me merezco Un OSCAR por excelent Copy+Pegar", 
+                "Miraaaaaaaaaaaa ... jajajajjaja toca enviarlo por consola porque no me funciona el Payara....:P ufff por fin una que te gano :P Me merezco un OSCAR.... Pd: Mi Espanglish a que es Genial!!! en el asunto", "hfquintero78@misena.edu.co");
         e.enviarEmail();
         
     }
